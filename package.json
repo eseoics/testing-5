@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/eseoics/testing-5/issues"
   },
-  "homepage": "https://github.com/eseoics/testing-5#readme"
+  "homepage": "https://github.com/eseoics/testing-5#readme",
+  "dependencies": {
+    "underscore": "^1.13.8"
+  }
 }
