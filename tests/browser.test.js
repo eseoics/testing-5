@@ -31,3 +31,7 @@ describe('Clicking "Pusha till stacken"', () => {
     });
 });
 
+test("sidans heading ska beskriva stacken", async () => {
+    let heading = await driver.findElement(By.css('h1')).getText();
+    expect(heading).toBe("Stack Page");
+});
