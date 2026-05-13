@@ -31,8 +31,8 @@ describe('Clicking "Pusha till stacken"', () => {
     });
 });
 
-test("dricka, tar bort och returnerar den sista pushade drickan", () => {
+test("pop, tar bort och returnerar den sista pushade drickan", () => {
     stack.push("nocco");
     stack.push("latitude");
-    expect(stack.dricka()).toBe("nocco");
+    expect(stack.pop()).toBe("nocco");
 });
