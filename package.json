@@ -1,0 +1,22 @@
+{
+  "name": "testing-5",
+  "version": "1.0.0",
+  "description": "ett test till inlämningsuppgift 5",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eseoics/testing-5.git"
+  },
+  "author": "Cem S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eseoics/testing-5/issues"
+  },
+  "homepage": "https://github.com/eseoics/testing-5#readme"
+}
