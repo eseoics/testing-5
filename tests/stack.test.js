@@ -21,5 +21,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 test("pop, tar bort och returnerar den sista pushade drickan", () => {
     stack.push("nocco");
     stack.push("latitude");
-    expect(stack.pop()).toBe("nocco");
+    expect(stack.pop()).toBe("latitude");
 });
