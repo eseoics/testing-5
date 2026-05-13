@@ -16,3 +16,9 @@ exports.pop = function () {
 exports.peek = function () {
     return _.last(stack);
 }
+
+test("pop, tar bort och returnerar den sista pushade drickan", () => {
+    stack.push("nocco");
+    stack.push("latitude");
+    expect(stack.pop()).toBe("latitude");
+});
